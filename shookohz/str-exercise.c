@@ -12,3 +12,8 @@ int has_exact_n_chars(const char *str, int n) {
     return i == n;
 
 }
+
+int main(){
+
+    printf("%d\n", has_exact_n_chars("hello",5));
+}
